@@ -98,7 +98,7 @@ const Hero = () => {
         </div>
 
         <div className="flex min-h-[10.75rem] lg:min-h-[18rem] items-center justify-center">
-          {typeof window !== 'undefined' && window.innerWidth > 768 && window.innerWidth !== undefined ? <div className="text-accent relative size-56 sm:size-60 md:size-[20rem] lg:size-[25.75rem]">
+          {typeof window !== 'undefined' && window.innerWidth > 768 ? <div className="text-accent relative size-56 sm:size-60 md:size-[20rem] lg:size-[25.75rem]">
             <Image
               src={'/profile1.png'}
               fill={true}

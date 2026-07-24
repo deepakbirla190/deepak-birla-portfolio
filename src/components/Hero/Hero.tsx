@@ -10,7 +10,6 @@ const Hero = () => {
   const [isFlipped, setIsFlipped] = useState(false)
   const [autoFlip, setAutoFlip] = useState(true)
   const flipIntervalRef = useRef<NodeJS.Timeout | null>(null)
-  const [isMobile, setIsMobile] = useState(true)
   
 
   const specifyRole = [

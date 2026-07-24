@@ -13,18 +13,29 @@ const Hero = () => {
   
 
   const specifyRole = [
-    'ReactJs',
-    'Nextjs',
-    'TypeScript',
-    'Tailwind CSS',
-    'Frontend Developer',
-    'Responsive Design',
-    'Redux',
-    'Clean Code',
-    'Mobile First Approach',
-    'Performance Optimization',
-    'nodejs',
-  ]
+  'Frontend Developer',
+  'React.js',
+  'Next.js',
+  'TypeScript',
+  'JavaScript (ES6+)',
+  'Tailwind CSS',
+  'Redux Toolkit',
+  'REST API Integration',
+  'Responsive Web Design',
+  'Mobile-First Development',
+  'Component-Based Architecture',
+  'Performance Optimization',
+  'Code Splitting',
+  'Lazy Loading',
+  'SEO Optimization',
+  'Accessibility (WCAG)',
+  'Cross-Browser Compatibility',
+  'Figma to Pixel-Perfect UI',
+  'Git',
+  'GitHub',
+  'Agile Development',
+  'Clean Code',
+];
 
   const aboutme = ['I', 'am', 'Frontend', 'Developer']
 
@@ -59,7 +70,7 @@ const Hero = () => {
             <div className="flip-front">
               <h1>
                 <span className="text-neutral mb-2 block text-lg font-bold">Deepak Birla</span>
-                <TypingEffect words={aboutme} />
+                {/* <TypingEffect words={aboutme} /> */}
                 <TypingEffect words={specifyRole} />
               </h1>
               <h2 className="text-neutral mt-3">

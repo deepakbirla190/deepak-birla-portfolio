@@ -37,7 +37,7 @@ const TypingEffect = ({ words }: { words: string[] }) => {
   }, [wordIndex, charIndex, words])
 
   return (
-      <div className="text-accent block text-3xl font-bold">
+      <div className="text-accent block text-sm lg:text-3xl font-bold">
           {displayText}
           <span className="ml-1 animate-pulse text-blue-400">|</span>
       </div>

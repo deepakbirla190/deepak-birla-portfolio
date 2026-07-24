@@ -7,14 +7,40 @@ import Skills from '@/components/Skills/Skills'
 
 const projects = [
   {
+  title: 'Localists - Local Services Marketplace',
+  shortDescription:
+    'Next.js powered local services platform connecting customers with trusted professionals across multiple service categories.',
+  priority: 11,
+  cover: '/localists.png',
+  livePreview: 'https://localists.com/',
+  type: 'Marketplace',
+  visitors: '5,000+',
+  techStack: [
+    'Next.js',
+    'Tailwind CSS',
+    'TypeScript',
+    'REST API',
+    'Context API'
+  ],
+  achievements: [
+    'Developed a responsive marketplace for discovering local service providers.',
+    'Implemented category and location-based search for faster service discovery.',
+    'Built reusable UI components to improve development efficiency and consistency.',
+    'Created detailed business profiles with service information and contact details.',
+    'Optimized application performance with code splitting and lazy loading.',
+    'Integrated secure authentication and user account management.',
+    'Enhanced SEO for better visibility of local business listings.'
+  ],
+},
+  {
     title: 'PrideBuzz - Financial Trading Platform',
     shortDescription:
-      'Next.js trading platform with real-time data visualization for 10,000+ active users',
+      'Next.js trading platform with real-time data visualization for 2,000+ active users',
     priority: 1,
-    cover: '/pribuzz.png',
-    livePreview: 'https://pridebuzz.in',
+    cover: '/pridescons.png',
+    livePreview: 'https://pridecons.com/',
     type: 'Financial',
-    visitors: '10,000+',
+    visitors: '2,000+',
     techStack: ['Next.js', 'Tailwind CSS', 'WebSocket', 'Context API', 'REST API'],
     achievements: [
       'Optimized performance by 10% through code splitting',
@@ -41,8 +67,8 @@ const projects = [
     title: 'Vidya AI (Ultimeet) - Educational Platform',
     shortDescription: 'AI-powered lecture management with automated notes generation',
     priority: 3,
-    cover: '/vidhyaAicover.png',
-    livePreview: 'https://vidya.ultimeet.io/',
+    cover: '/vidyaai.png',
+    livePreview: 'https://vidyaai.ai/',
     type: 'Education',
     techStack: ['React.js', 'Tailwind CSS', 'Context API', 'REST API'],
     achievements: [
@@ -56,7 +82,7 @@ const projects = [
     shortDescription: 'React.js solution for printing business with inventory and order management',
     priority: 4,
     cover: '/akriticover.png',
-    livePreview: 'https://akriticreations.in/',
+    livePreview: '',
     type: 'Business',
     techStack: ['React.js', 'Material-UI', 'Redux', 'React Hook Form'],
     achievements: [
@@ -69,7 +95,7 @@ const projects = [
     title: 'UltiMeet - Meeting Management Platform',
     shortDescription: 'Voice biometric-based meeting automation system',
     priority: 5,
-    cover: '/ultimeet.png',
+    cover: '/ultimeetnew.png',
     livePreview: 'https://ultimeet.io/',
     type: 'Productivity',
     techStack: ['React.js', 'Tailwind CSS', 'Context API', 'WebSocket'],

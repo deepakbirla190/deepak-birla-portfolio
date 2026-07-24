@@ -44,9 +44,7 @@ export default function RootLayout({
   return (
     <html lang="en" data-theme="retro">
       <body className={`${firaCode.className}`}>
-        <header>
           <Navbar />
-        </header>
         {children}
         <ThemeMenu />
         {/* <Footer /> */}

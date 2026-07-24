@@ -37,7 +37,7 @@ const Hero = () => {
   'Clean Code',
 ];
 
-  const aboutme = ['I', 'am', 'Frontend', 'Developer']
+  // const aboutme = ['I', 'am', 'Frontend', 'Developer']
 
   useEffect(() => {
     if (autoFlip) {
